@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Isaiah Adeleke's personal portfolio showcasing skills, projects, and experience."
+    />
+    <meta
+      name="keywords"
+      content="portfolio, cloud engineering, cloud security, AWS"
+    />
+    <meta name="author" content="Isaiah Adeleke" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <title>Isaiah's Portfolio</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- Nav Section -->
+      <nav class="nav-container">
+        <div class="nav-subContainer">
+          <div class="logo">
+            <a href="#home" class="logo-link"
+              >Isaiah<span class="span">Adeleke.</span></a
+            >
+          </div>
+
+          <div class="list-container">
+            <li class="list-item"><a href="#home" class="link">Home</a></li>
+            <li class="list-item"><a href="#about" class="link">About</a></li>
+            <li class="list-item">
+              <a href="#service" class="link">Service</a>
+            </li>
+            <!-- <li class="list-item">
+              <a href="#portfolio" class="link">Portfolio</a>
+            </li> -->
+            <li class="list-item"><a href="#resume" class="link">Resume</a></li>
+            <!-- <li class="list-item">
+              <a href="#blog" class="link">Blog</a>
+            </li> -->
+            <li class="list-item">
+              <a href="#contact" class="link">Contact</a>
+            </li>
+          </div>
+
+          <div class="hamburger-menu show">
+            <div>
+              <div class="logo">
+                <a href="#home" class="logo-link"
+                  >Isaiah<span class="span">Adeleke.</span></a
+                >
+              </div>
+            </div>
+
+            <div class="hamburger">
+              <li class="list-item" id="list-item">
+                <a href="#home" class="link">Home</a>
+              </li>
+              <li class="list-item" id="list-item">
+                <a href="#about" class="link">About</a>
+              </li>
+              <li class="list-item" id="list-item">
+                <a href="#service" class="link">Service</a>
+              </li>
+              <!-- <li class="list-item" id="list-item">
+                <a href="#portfolio" class="link">Portfolio</a>
+              </li> -->
+              <li class="list-item" id="list-item">
+                <a href="#resume" class="link">Resume</a>
+              </li>
+              <!-- <li class="list-item" id="list-item">
+                <a href="#blog" class="link">Blog</a>
+              </li> -->
+              <li class="list-item" id="list-item">
+                <a href="#contact" class="link">Contact</a>
+              </li>
+            </div>
+
+            <div class="close-btn">
+              <button class="button" id="close">Close</button>
+            </div>
+          </div>
+
+          <div class="menu-container">
+            <i class="fa-solid fa-bars" id="menu"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <section id="home" class="hero-section">
+        <div class="section-subContainer">
+          <div class="content-container">
+            <p class="small-text">Hello, Welcome</p>
+            <h3 class="large-text">I am Isaiah Adeleke</h3>
+            <p class="hero-paragraph">
+              I am Isaiah Adeleke, a DevOps and Cloud Engineering expert with a
+              proven track record in multi-cloud architecture, automation,
+              security, and scalability.
+            </p>
+            <div>
+              <a href="#contact" class="contact-btn">Contact me</a>
+            </div>
+          </div>
+
+          <div class="img-container">
+            <img
+              src="/images/profileimg_comp.jpg"
+              alt="Profile image"
+              class="img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="about-container">
+          <div class="about-img_container">
+            <!-- <div class="box"></div> -->
+            <div class="about-img">
+              <img
+                src="/images/profileimg_comp.jpg"
+                alt="Profile image"
+                class="abt-img"
+              />
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h3 class="large-text">About <span class="span">Me</span></h3>
+            <p class="about-paragraph">
+              I am Isaiah Adeleke, a DevOps and Cloud Engineering expert with a
+              proven track record in multi-cloud architecture, automation,
+              security, and scalability. With 7+ years of experience, I have
+              helped startups and enterprises build resilient, cost-optimized
+              cloud infrastructures that drive efficiency and high availability.
+            </p>
+            <div>
+              <!-- <button id="#contact" class="button">Contact me</button> -->
+              <a href="#contact" class="contact-btn">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="service" class="service-section">
+        <div class="service-container">
+          <div class="content-container">
+            <h3 class="large-text">My <span class="span">Services</span></h3>
+            <p class="service-paragraph">
+              There are many variations of passages ofLorem Ipsum available, but
+              the majority havesuffered alteration in some form, by injected
+              humour,
+            </p>
+          </div>
+
+          <div class="service-subContainer">
+            <div class="card-container-1">
+              <div class="card-1">
+                <div class="card-innerContainer">
+                  <div class="icon-container">
+                    <i class="fa-solid fa-cloud" id="icon"></i>
+                  </div>
+                  <h4 class="title">Cloud Engineering & DevOps Consulting</h4>
+                  <p class="content">
+                    There are many variations of passages ofLorem
+                    Ipsumavailable, but the majority havesuffered alteration in
+                    some
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-1">
+                <div class="card-innerContainer">
+                  <div class="icon-container">
+                    <i class="fa-brands fa-aws" id="icon"></i>
+                  </div>
+                  <h4 class="title">
+                    AWS, Kubernetes & Cloud Infrastructure Design
+                  </h4>
+                  <p class="content">
+                    There are many variations of passages ofLorem
+                    Ipsumavailable, but the majority havesuffered alteration in
+                    some
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-1">
+                <div class="card-innerContainer">
+                  <div class="icon-container">
+                    <i class="fa-solid fa-code" id="icon"></i>
+                  </div>
+                  <h4 class="title">
+                    Infrastructure as Code (Terraform, Ansible, Pulumi)
+                  </h4>
+                  <p class="content">
+                    There are many variations of passages ofLorem
+                    Ipsumavailable, but the majority havesuffered alteration in
+                    some
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-1">
+                <div class="card-innerContainer">
+                  <div class="icon-container">
+                    <i class="fa-solid fa-cloud" id="icon"></i>
+                  </div>
+                  <h4 class="title">
+                    Cloud Security & Compliance (ISO 27001, GDPR considerations)
+                  </h4>
+                  <p class="content">
+                    There are many variations of passages ofLorem
+                    Ipsumavailable, but the majority havesuffered alteration in
+                    some
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-1">
+                <div class="card-innerContainer">
+                  <div class="icon-container">
+                    <i class="fa-solid fa-book-open-reader" id="icon"></i>
+                  </div>
+                  <h4 class="title">Tech Leadership & Mentorship</h4>
+                  <p class="content">
+                    There are many variations of passages ofLorem
+                    Ipsumavailable, but the majority havesuffered alteration in
+                    some
+                  </p>
+                </div>
+              </div>
+
+              <div class="card-1">
+                <div class="card-innerContainer">
+                  <div class="icon-container">
+                    <i class="fa-solid fa-money-bill" id="icon"></i>
+                  </div>
+                  <h4 class="title">
+                    Cloud Cost Optimization & Scalability Strategies
+                  </h4>
+                  <p class="content">
+                    There are many variations of passages ofLorem
+                    Ipsumavailable, but the majority havesuffered alteration in
+                    some
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="directions-1">
+              <button class="prev-btn-1">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="next-btn-1">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <!-- <section id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+          <div class="portfolio-head">
+            <h3 class="large-text" style="text-align: center">
+              My <span class="span">Portfolio</span>
+            </h3>
+            <p class="portfolio-paragraph">
+              There are many variations of passages ofLorem Ipsum available, but
+              the majority havesuffered alteration in some form, by injected
+              humour,
+            </p>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Resume Section -->
+      <section id="resume" class="resume-section">
+        <div class="resume-container">
+          <div class="content-container">
+            <h3 class="large-text">My <span class="span">Experiences</span></h3>
+            <p class="resume-paragraph">
+              There are many variations of passages ofLorem Ipsum available, but
+              the majority havesuffered alteration in some form, by injected
+              humour,
+            </p>
+          </div>
+
+          <div class="resume-subContainer">
+            <div class="card-container-2">
+              <div class="card-2">
+                <div class="card-content">
+                  <p class="date-text">June, 2002 - 2020</p>
+                  <h4 class="title-text">
+                    Lead DevOps Engineer & CTO | TreeKle & FBIS Technologies
+                  </h4>
+                  <div class="sub-content">
+                    <p class="des-text">
+                      Successfully led cloud migration and DevOps transformation
+                      initiatives, driving significant reductions in operational
+                      costs. Designed and implemented highly available, scalable
+                      cloud architectures using GCP and Kubernetes. Streamlined
+                      operations by automating infrastructure with Terraform
+                      (IaC), enhancing
+                      <span class="hidden-text unhide"
+                        >efficiency and productivity. Established robust CI/CD
+                        pipelines, achieving a 70% improvement in deployment
+                        speed. Defined comprehensive engineering policies and
+                        SLAs to ensure system reliability and operational
+                        excellence.</span
+                      >
+                    </p>
+                    <button class="more">Read more</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-2">
+                <div class="card-content">
+                  <p class="date-text">June, 2002 - 2020</p>
+                  <h4 class="title-text">Founder | Hayio Technologies</h4>
+                  <div class="sub-content">
+                    <p class="des-text">
+                      Empowering startups with secure, scalable, and
+                      cost-efficient cloud solutions. Specializing in cloud
+                      security, DevOps consulting, and automation strategies,
+                      building CloudForge—a cutting-edge multi-cloud automation
+                      platform designed for seamless, one-click deployments with
+                      zero DevOps hassle. Driving 99.9% uptime and optimized
+                      cloud costs for businesses.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-2">
+                <div class="card-content">
+                  <p class="date-text">June, 2002 - 2020</p>
+                  <h4 class="title-text">
+                    Equity Bank Limited, Kenya (Contract)
+                  </h4>
+                  <div class="sub-content">
+                    <p class="des-text">
+                      Spearheaded the development of a banking biller management
+                      system, enhancing digital payments through a responsive
+                      and user-centric interface built with React.js and
+                      Material-UI. Designed Kubernetes-based container
+                      orchestration, ensuring scalability, security, and fault
+                      tolerance. Implemented
+                      <span class="hidden-text unhide"
+                        >cloud security best practices, reinforcing
+                        infrastructure security & compliance. Mentored
+                        engineers, improving team productivity & code
+                        efficiency.</span
+                      >
+                    </p>
+                    <button class="more">Read more</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-2">
+                <div class="card-content">
+                  <p class="date-text">June, 2002 - 2020</p>
+                  <h4 class="title-text">
+                    Arnergy Solar Limited, Nigeria | Senior Software Engineer →
+                    Lead Engineer → DevOps Engineer
+                  </h4>
+                  <div class="sub-content">
+                    <p class="des-text">
+                      Designed and implemented a scalable IoT infrastructure on
+                      AWS, capable of handling over 5,000 requests per minute
+                      while reducing latency by 50%. Enhanced cloud security
+                      through robust IAM policies, data encryption,<span
+                        class="hidden-text unhide"
+                      >
+                        and automated monitoring. Implemented Prometheus and
+                        Grafana for proactive monitoring, achieving a 20%
+                        reduction in system downtime. Spearheaded GraphQL API
+                        integration, significantly improving data consistency
+                        and system reliability. Built CI/CD pipelines,
+                        streamlining software delivery and deployment processes.
+                        Mentored and led engineering teams, accelerating
+                        onboarding by 25% and improving code quality by 20%.
+                      </span>
+                    </p>
+                    <button class="more">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="directions-2">
+              <button class="prev-btn-2">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="next-btn-2">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="contact-container">
+          <div class="contact-head" style="text-align: center">
+            <h4 class="large-text">Contact <span class="span">Me</span></h4>
+            <p class="contact-paragraph">
+              There are many variations of passages ofLorem Ipsumavailable, but
+              the majority havesuffered alteration in some form, by injected
+              humour,
+            </p>
+          </div>
+          <div class="contact-subContainer">
+            <div class="details-container">
+              <p class="text">
+                Address:
+                <span style="color: #fff"
+                  >No 30B, Opposite Rehoboth Church, Aree Jusction, Ibadan
+                  Nigeria</span
+                >
+              </p>
+              <p class="text">
+                Phone: <span style="color: #fff">+955 678 9876</span>
+              </p>
+              <p class="text">
+                Email:
+                <span style="color: #fff">aisaiaholusegun@gmail.com</span>
+              </p>
+            </div>
+
+            <div class="form-container">
+              <form action="/api/sendMessage" method="POST" id="contact-form">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Name"
+                  style="color: #fff"
+                  required
+                />
+                <textarea
+                  type="text"
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                  style="color: #fff"
+                  required
+                ></textarea>
+
+                <button type="submit" class="button">Contact me</button>
+              </form>
+
+              <!-- Failure -->
+              <div id="not-sent">
+                <i
+                  class="fa-solid fa-circle-exclamation"
+                  style="font-size: 2rem; color: red"
+                ></i>
+                <p class="success-text">Message delivery not successful</p>
+              </div>
+
+              <!-- Success -->
+              <div id="success">
+                <i
+                  class="fa-solid fa-circle-check"
+                  style="color: green; font-size: 2rem"
+                ></i>
+                <p class="success-text">Message successfully delivered.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Socials Section -->
+      <section id="" class="socials-section">
+        <div class="socials-container">
+          <a
+            href="https://web.facebook.com/shegzy.tom?mibextid=wwXIfr&rdid=A5iRZcqEgI3eyxMq&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1D53kbtCNx%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr#"
+            class="social-link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://x.com/_iamaio?s=21" class="social-link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="Linkedin: https://www.linkedin.com/in/isaiah-adeleke-67046610a"
+            class="social-link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/isaiah.adeleke_?igsh=MXhsYnVvZGFnbWQxcw%3D%3D&utm_source=qr"
+            class="social-link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://youtube.com/@adelekeisaiaholusegun6189?si=rJ1nAr-_ToslWCDI"
+            class="social-link"
+          >
+            <i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
