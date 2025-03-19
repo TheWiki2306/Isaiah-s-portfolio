@@ -146,14 +146,12 @@
   font-family: var(--primary-fontfamily);
   font-weight: 400;
   font-size: var(--text-size);
-
   line-height: 27px;
   letter-spacing: 0%;
-
   max-width: 29rem;
   min-height: 5rem;
   color: var(--text-color);
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .button {
@@ -288,6 +286,7 @@
   min-height: 5rem;
   color: var(--text-color);
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .service-subContainer {
@@ -444,6 +443,7 @@
   min-height: 5rem;
   color: var(--text-color);
   margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .resume-subContainer {
